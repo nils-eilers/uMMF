@@ -3220,7 +3220,7 @@ L superpet-rescue:CP C26
 U 1 1 59E40EF4
 P 8050 9500
 F 0 "C26" H 8075 9600 50  0000 L CNN
-F 1 "10 µF" H 8075 9400 50  0000 L CNN
+F 1 "100 µF" H 8075 9400 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 8088 9350 50  0001 C CNN
 F 3 "" H 8050 9500 50  0001 C CNN
 	1    8050 9500
@@ -3591,10 +3591,10 @@ U3: HCT type required for proper voltage levels
 Text Notes 12100 7825 0    50   ~ 0
 Mount either J8 (preferred) or J4\nBoth is physically impossible
 $Comp
-L superpet-rescue:+9V #PWR?
+L superpet-rescue:+9V #PWR0101
 U 1 1 5EC561B4
 P 7025 10375
-F 0 "#PWR?" H 7025 10225 50  0001 C CNN
+F 0 "#PWR0101" H 7025 10225 50  0001 C CNN
 F 1 "+9V" H 7025 10525 50  0000 C CNN
 F 2 "" H 7025 10375 50  0001 C CNN
 F 3 "" H 7025 10375 50  0001 C CNN
@@ -3602,10 +3602,10 @@ F 3 "" H 7025 10375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L superpet-rescue:GND #PWR?
+L superpet-rescue:GND #PWR0102
 U 1 1 5EC760DB
 P 7200 10525
-F 0 "#PWR?" H 7200 10275 50  0001 C CNN
+F 0 "#PWR0102" H 7200 10275 50  0001 C CNN
 F 1 "GND" H 7200 10375 50  0000 C CNN
 F 2 "" H 7200 10525 50  0001 C CNN
 F 3 "" H 7200 10525 50  0001 C CNN

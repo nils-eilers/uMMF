@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/j/Projekte/my/uMMF/kicad/superpet.sch)
-    (date "Do 07 Mai 2020 14:34:52 CEST")
+    (date "Do 07 Mai 2020 14:44:43 CEST")
     (tool "Eeschema 5.1.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -319,7 +319,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 59CEC236))
     (comp (ref C26)
-      (value "10 µF")
+      (value "100 µF")
       (footprint Capacitors_THT:CP_Radial_D6.3mm_P2.50mm)
       (libsource (lib superpet-rescue) (part CP) (description ""))
       (sheetpath (names /) (tstamps /))
