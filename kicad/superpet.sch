@@ -1331,8 +1331,6 @@ Text Label 11500 6450 0    50   ~ 0
 RTS
 Text Label 11500 6250 0    50   ~ 0
 CTS
-Text Notes 11500 6050 0    50   ~ 0
-RI
 $Comp
 L superpet-rescue:MC1488 U8
 U 1 1 59C961DE
@@ -3630,6 +3628,10 @@ Text Notes 7350 10925 0    50   ~ 0
 J6 connects to J10 on\n8032 motherboard\nCONNECT +9V ONLY\n\nA voltage inverter board \ncould be used instead.
 Wire Wire Line
 	925  2275 600  2275
+Entry Wire Line
+	500  2375 600  2275
+Text Label 650  2275 0    50   ~ 0
+PHI0
 Wire Bus Line
 	500  5725 3650 5725
 Wire Bus Line
@@ -3656,8 +3658,6 @@ Wire Bus Line
 	6375 2950 6375 10525
 Wire Bus Line
 	3650 800  3650 5725
-Entry Wire Line
-	500  2375 600  2275
-Text Label 650  2275 0    50   ~ 0
-PHI0
+Text Label 12725 6050 0    50   ~ 0
+RI
 $EndSCHEMATC
