@@ -1,0 +1,14 @@
+*.bak
+*.log
+*.vcd
+*.vvp
+*.DS_Store
+cpld/db
+cpld/incremental_db
+cpld/simulation
+cpld/output_files/*.rpt
+cpld/output_files/*.cdf
+cpld/output_files/*.done
+cpld/output_files/*.summary
+cpld/output_files/*.jdi
+cpld/kolibri.qws

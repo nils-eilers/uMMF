@@ -1,0 +1,200 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP -9V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP ADM232A
+D Dual RS232 driver/receiver, 5V supply, 200kb/s
+K rs232 uart transceiver line-driver
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
+$ENDCMP
+#
+$CMP ICL3232
+D 3.0V to 5.5V, Low-Power, up to 250kbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors
+K rs232 uart transceiver line-driver
+F http://www.intersil.com/content/dam/Intersil/documents/icl3/icl3221-22-23-32-41-43.pdf
+$ENDCMP
+#
+$CMP LF120_TO220
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 12.0V, TO-220
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF15_TO220
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 1.5V, TO-220
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF18_TO220
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 1.8V, TO-220
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF25_TO220
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 2.5V, TO-220
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF33_TO220
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 3.3V, TO-220
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF47_TO220
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 4.7V, TO-220
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF50_TO220
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 5.0V, TO-220
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF60_TO220
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 6.0V, TO-220
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF80_TO220
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 8.0V, TO-220
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF85_TO220
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 8.5V, TO-220
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF90_TO220
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 9.0V, TO-220
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LM341T-05_TO220
+D Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-220
+K Voltage Regulator 500mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
+$ENDCMP
+#
+$CMP LM341T-12_TO220
+D Positive 500mA 35V Linear Regulator, Fixed Output 12V, TO-220
+K Voltage Regulator 500mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
+$ENDCMP
+#
+$CMP LM341T-15_TO220
+D Positive 500mA 35V Linear Regulator, Fixed Output 15V, TO-220
+K Voltage Regulator 500mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
+$ENDCMP
+#
+$CMP LM7805_TO220
+D Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7806_TO220
+D Positive 1A 35V Linear Regulator, Fixed Output 6V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7808_TO220
+D Positive 1A 35V Linear Regulator, Fixed Output 8V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7809_TO220
+D Positive 1A 35V Linear Regulator, Fixed Output 9V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7810_TO220
+D Positive 1A 35V Linear Regulator, Fixed Output 10V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7812_TO220
+D Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7815_TO220
+D Positive 1A 35V Linear Regulator, Fixed Output 15V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7818_TO220
+D Positive 1A 35V Linear Regulator, Fixed Output 18V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7824_TO220
+D Positive 1A 35V Linear Regulator, Fixed Output 24V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM78M05_TO220
+D Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-220
+K Voltage Regulator 500mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
+$ENDCMP
+#
+$CMP MAX202
+D Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C
+K rs232 uart transceiver line-driver
+F http://www.ti.com/lit/ds/symlink/max202.pdf
+$ENDCMP
+#
+$CMP MAX232
+D Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C
+K rs232 uart transceiver line-driver
+F http://www.ti.com/lit/ds/symlink/max232.pdf
+$ENDCMP
+#
+$CMP MAX232I
+D Dual RS232 driver/receiver, 5V supply, 120kb/s, -40C-80C
+K rs232 uart transceiver line-driver
+F http://www.ti.com/lit/ds/symlink/max232.pdf
+$ENDCMP
+#
+$CMP MAX3232
+D 3.0V to 5.5V, Low-Power, up to 1Mbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors
+K rs232 uart transceiver line-driver
+F https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf
+$ENDCMP
+#
+$CMP SPX2920U-3.3_TO220
+D 400mA Low drop-out regulator, Fixed Output 3.3V, TO-220
+K REGULATOR LDO 3.3V
+F http://www.zlgmcu.com/Sipex/LDO/PDF/spx2920.pdf
+$ENDCMP
+#
+$CMP SPX2920U-5.0_TO220
+D 400mA Low drop-out regulator, Fixed Output 5V, TO-220
+K REGULATOR LDO 5V
+F http://www.zlgmcu.com/Sipex/LDO/PDF/spx2920.pdf
+$ENDCMP
+#
+#End Doc Library

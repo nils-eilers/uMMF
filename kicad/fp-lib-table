@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Connectors_DSub)(type KiCad)(uri "$(KIPRJMOD)/Connectors_DSub.pretty-master")(options "")(descr ""))
+  (lib (name eilers4)(type KiCad)(uri ${KIPRJMOD}/eilers4.pretty)(options "")(descr ""))
+)

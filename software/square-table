@@ -1,0 +1,1 @@
+program example3(output);var x, xsquared: integer;   begin      for x:=12 to 21 do         begin            xsquared:=x*x;            writeln(x, xsquared);         end;   end.
