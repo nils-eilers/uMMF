@@ -1,4 +1,6 @@
+gerber.zip
 *.bak
+*-bak
 *.log
 *.vcd
 *.vvp
@@ -11,4 +13,5 @@ cpld/output_files/*.cdf
 cpld/output_files/*.done
 cpld/output_files/*.summary
 cpld/output_files/*.jdi
-cpld/kolibri.qws
+cpld/superpet.qws
+cpld/output_files/superpet.map.smsg
