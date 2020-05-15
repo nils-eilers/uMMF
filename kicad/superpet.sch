@@ -1067,7 +1067,7 @@ L superpet-rescue:C C24
 U 1 1 59C97806
 P 2800 10800
 F 0 "C24" H 2825 10900 50  0000 L CNN
-F 1 "470nF" H 2825 10700 50  0000 L CNN
+F 1 "1uF" H 2825 10700 50  0000 L CNN
 F 2 "eilers4:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 2838 10650 50  0001 C CNN
 F 3 "" H 2800 10800 50  0001 C CNN
 	1    2800 10800
@@ -1955,8 +1955,8 @@ $Comp
 L superpet-rescue:R_Network06 RN1
 U 1 1 59CAD9A1
 P 4300 1175
-F 0 "RN1" V 3900 1175 50  0000 C CNN
-F 1 "3k3" V 4600 1175 50  0000 C CNN
+F 0 "RN1" H 3850 1150 50  0000 C CNN
+F 1 "6 x 3k3" H 4275 1350 50  0000 C CNN
 F 2 "eilers4:R_Array_SIP7" V 4675 1175 50  0001 C CNN
 F 3 "" H 4300 1175 50  0001 C CNN
 	1    4300 1175
@@ -3738,6 +3738,20 @@ Connection ~ 7000 2800
 Connection ~ 5750 2800
 Wire Bus Line
 	5750 2800 5000 2800
+Connection ~ 6375 2800
+Wire Bus Line
+	6375 2800 5750 2800
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J8
+U 1 1 61371FD4
+P 14250 6000
+F 0 "J8" H 14300 6417 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 14300 6326 50  0001 C CNN
+F 2 "Connectors_Multicomp:Multicomp_MC9A12-1034_2x05x2.54mm_Straight" H 14250 6000 50  0001 C CNN
+F 3 "~" H 14250 6000 50  0001 C CNN
+	1    14250 6000
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	500  5725 3650 5725
 Wire Bus Line
@@ -3764,18 +3778,4 @@ Wire Bus Line
 	500  2275 500  5725
 Wire Bus Line
 	3650 800  3650 5725
-Connection ~ 6375 2800
-Wire Bus Line
-	6375 2800 5750 2800
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J8
-U 1 1 61371FD4
-P 14250 6000
-F 0 "J8" H 14300 6417 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 14300 6326 50  0001 C CNN
-F 2 "Connectors_Multicomp:Multicomp_MC9A12-1034_2x05x2.54mm_Straight" H 14250 6000 50  0001 C CNN
-F 3 "~" H 14250 6000 50  0001 C CNN
-	1    14250 6000
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
